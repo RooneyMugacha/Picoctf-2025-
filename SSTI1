@@ -1,3 +1,1 @@
-The hint tells us that server side templating is used. A quick google search shows that some popular ones are Django, Jinja2, Mako, or Cheetah.
-I tried {{7*7}}, and got an Internal Server Error, By injecting {{7*'7'}}, we can tell if its Jinja2.
-I found a command that can execute shell commands. 
+
